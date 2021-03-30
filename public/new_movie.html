@@ -1,0 +1,25 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Create New Movie</title>
+    </head>
+    <body>
+        <a href='//localhost:8080/movies.html'>All Movies</a>
+        <div class="container">
+            <form id="new_movie">
+                <label for="title"><b>Title</b></label>
+                <input type="text" placeholder="Enter Title" name="title" required>
+                <label for="description"><b>Description</b></label>
+                <input type="text" placeholder="Enter Description" name="description" required>
+                <label for="release_date"><b>Release Date</b></label>
+                <input type="date" placeholder="Enter Release Date" name="release_date" required>
+                <label for="budget"><b>Budget</b></label>
+                <input type="number" placeholder="Enter Budget" name="budget" required>
+                <button type="submit">Create Movie</button>
+            </form>
+        </div>
+        <script src="/scripts/new_movie-bundle.js"></script>
+    </body>
+</html>
